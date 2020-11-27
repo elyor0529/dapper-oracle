@@ -30,10 +30,10 @@ namespace UzEx.Dapper.Oracle.TypeHandler
             var enumValue = Enum.Parse(enumType, key.OracleTypeName);
             var inputVariable = Expression.Parameter(typeof(IDbDataParameter));
             var convertExpression = Expression.Convert(inputVariable, key.ParameterType);
-            var expression = Expression.Assign(Expression.PropertyOrField(convertExpression, "OracleDbType"), Expression.Constant(enumValue));
+            var expression = Expression.Assign(Expression.PropertyOrField(convertExpression, "OracleDbType"),
+                Expression.Constant(enumValue));
 
             return Expression.Lambda<Action<IDbDataParameter>>(expression, inputVariable).Compile();
         }
-
     }
 }

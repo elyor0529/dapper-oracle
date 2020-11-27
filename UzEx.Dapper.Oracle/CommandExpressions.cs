@@ -4,7 +4,7 @@ using UzEx.Dapper.Oracle.Expressions;
 
 namespace UzEx.Dapper.Oracle
 {
-    internal   class CommandExpressions
+    internal class CommandExpressions
     {
         public CommandExpressions(Type commandType)
         {

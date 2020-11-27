@@ -6,16 +6,17 @@ namespace UzEx.Dapper.Oracle.BulkSql
 {
     internal static class OracleMapper
     {
-        private static readonly Dictionary<Type, OracleMappingType> OracleMappings = new Dictionary<Type, OracleMappingType>
-        {
-            {typeof(Guid), OracleMappingType.Raw},
-            {typeof(string), OracleMappingType.Varchar2},
-            {typeof(long), OracleMappingType.Long},
-            {typeof(decimal), OracleMappingType.Decimal},
-            {typeof(DateTime), OracleMappingType.Date},
-            {typeof(int), OracleMappingType.Int32},
-            {typeof(bool), OracleMappingType.Int16}
-        };
+        private static readonly Dictionary<Type, OracleMappingType> OracleMappings =
+            new Dictionary<Type, OracleMappingType>
+            {
+                {typeof(Guid), OracleMappingType.Raw},
+                {typeof(string), OracleMappingType.Varchar2},
+                {typeof(long), OracleMappingType.Long},
+                {typeof(decimal), OracleMappingType.Decimal},
+                {typeof(DateTime), OracleMappingType.Date},
+                {typeof(int), OracleMappingType.Int32},
+                {typeof(bool), OracleMappingType.Int16}
+            };
 
         public static OracleMappingType? GuessType(Type type)
         {
@@ -45,9 +46,9 @@ namespace UzEx.Dapper.Oracle.BulkSql
                     if (OracleMappings.ContainsKey(pi.PropertyType)) dbType = OracleMappings[pi.PropertyType];
 
                     if (pi.PropertyType == typeof(Guid))
-                        selector = p => ((Guid)pi.GetValue(p)).ToByteArray();
+                        selector = p => ((Guid) pi.GetValue(p)).ToByteArray();
                     else if (pi.PropertyType == typeof(bool))
-                        selector = p => (bool)pi.GetValue(p) ? 1 : 0;
+                        selector = p => (bool) pi.GetValue(p) ? 1 : 0;
                     else
                         selector = p => pi.GetValue(p);
 

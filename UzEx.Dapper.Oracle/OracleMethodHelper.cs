@@ -87,8 +87,7 @@ namespace UzEx.Dapper.Oracle
 
         private static CommandExpressions Get(IDbCommand command)
         {
-            return CachedOracleCommandProperties.GetOrAdd(command.GetType(),type => new CommandExpressions(type));
+            return CachedOracleCommandProperties.GetOrAdd(command.GetType(), type => new CommandExpressions(type));
         }
-
     }
 }

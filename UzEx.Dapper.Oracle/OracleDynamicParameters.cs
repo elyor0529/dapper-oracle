@@ -256,6 +256,5 @@ namespace UzEx.Dapper.Oracle
 
             return name;
         }
-
     }
 }

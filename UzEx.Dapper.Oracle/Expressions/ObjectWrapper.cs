@@ -18,7 +18,7 @@ namespace UzEx.Dapper.Oracle.Expressions
 
         public void SetValue(TObject command, TValue value)
         {
-            if (_setter == null) 
+            if (_setter == null)
                 _setter = CreateSetter();
 
             _setter(command, value);

@@ -7,9 +7,9 @@ namespace UzEx.Dapper.Oracle.Demo
     {
         private static void Main(string[] args)
         {
-            var conn=new OracleConnection();
+            var conn = new OracleConnection();
             var com = conn.CreateCommand();
-            
+
             com.Parameters.Add(new OracleDynamicParameters());
 
             Console.WriteLine("Done!");

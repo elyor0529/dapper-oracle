@@ -40,10 +40,11 @@ namespace UzEx.Dapper.Oracle.TypeHandler
                 if (valuestring.Equals(_trueString, _compareMode))
                     return true;
 
-                if (valuestring.Equals(_falseString, _compareMode)) 
+                if (valuestring.Equals(_falseString, _compareMode))
                     return false;
 
-                throw new NotSupportedException($"'{valuestring}' was unexpected - expected '{_trueString}' or '{_falseString}'");
+                throw new NotSupportedException(
+                    $"'{valuestring}' was unexpected - expected '{_trueString}' or '{_falseString}'");
             }
 
             throw new NotSupportedException($"Dont know how to convert a {value.GetType()} to a Boolean");

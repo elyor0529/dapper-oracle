@@ -6,7 +6,8 @@ namespace UzEx.Dapper.Oracle
 {
     public static class OracleTypeMapper
     {
-        private static readonly Dictionary<Type, SqlMapper.ITypeHandler> Handlers = new Dictionary<Type, SqlMapper.ITypeHandler>();
+        private static readonly Dictionary<Type, SqlMapper.ITypeHandler> Handlers =
+            new Dictionary<Type, SqlMapper.ITypeHandler>();
 
         public static void AddTypeHandler(Type type, SqlMapper.ITypeHandler handler)
         {
