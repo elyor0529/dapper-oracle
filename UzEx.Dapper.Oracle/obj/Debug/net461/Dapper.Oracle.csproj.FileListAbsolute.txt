@@ -1,9 +1,0 @@
-C:\Users\user\Desktop\Dapper.Oracle-2.0.1\bin\debug\net461\Dapper.Oracle.dll
-C:\Users\user\Desktop\Dapper.Oracle-2.0.1\bin\debug\net461\Dapper.Oracle.pdb
-C:\Users\user\Desktop\Dapper.Oracle-2.0.1\src\Dapper.Oracle\obj\Debug\net461\Dapper.Oracle.csprojAssemblyReference.cache
-C:\Users\user\Desktop\Dapper.Oracle-2.0.1\src\Dapper.Oracle\obj\Debug\net461\Dapper.Oracle.AssemblyInfoInputs.cache
-C:\Users\user\Desktop\Dapper.Oracle-2.0.1\src\Dapper.Oracle\obj\Debug\net461\Dapper.Oracle.AssemblyInfo.cs
-C:\Users\user\Desktop\Dapper.Oracle-2.0.1\src\Dapper.Oracle\obj\Debug\net461\Dapper.Oracle.csproj.CoreCompileInputs.cache
-C:\Users\user\Desktop\Dapper.Oracle-2.0.1\src\Dapper.Oracle\obj\Debug\net461\Dapper.Oracle.csproj.CopyComplete
-C:\Users\user\Desktop\Dapper.Oracle-2.0.1\src\Dapper.Oracle\obj\Debug\net461\Dapper.Oracle.dll
-C:\Users\user\Desktop\Dapper.Oracle-2.0.1\src\Dapper.Oracle\obj\Debug\net461\Dapper.Oracle.pdb
