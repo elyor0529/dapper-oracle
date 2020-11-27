@@ -4,6 +4,18 @@
     <PropertyGroup>
         <IsTestProject>false</IsTestProject>
         <TargetFrameworks>netstandard2.0;net461</TargetFrameworks>
+        <PackageProjectUrl></PackageProjectUrl>
+        <PackageIcon>logo.png</PackageIcon>
+        <RepositoryUrl>https://github.com/elyor0529/uzex-dapper-oracle</RepositoryUrl>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
+        <PackageReleaseNotes>- Supported .net stan/fx
+</PackageReleaseNotes>
+        <PackageTags>oracle dotnet core standart framework</PackageTags>
+        <Version>3.0.0</Version>
+        <Company>UzEx</Company>
+        <Authors>elyor0529</Authors>
+        <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     </PropertyGroup>
 
     <ItemGroup Condition=" '$(TargetFramework)' == 'net461' ">
@@ -17,6 +29,13 @@
     
     <ItemGroup>
         <PackageReference Include="Dapper" Version="2.0.35" />
+    </ItemGroup>  
+    
+    <ItemGroup>
+      <None Include="logo.png">
+        <Pack>True</Pack>
+        <PackagePath></PackagePath>
+      </None>
     </ItemGroup> 
     
 </Project>
