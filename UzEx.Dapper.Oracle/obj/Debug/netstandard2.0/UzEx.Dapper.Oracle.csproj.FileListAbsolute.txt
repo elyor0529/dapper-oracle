@@ -1,0 +1,17 @@
+C:\Users\user\Desktop\Dapper.Oracle-2.0.1\bin\debug\netstandard2.0\UzEx.Dapper.Oracle.deps.json
+C:\Users\user\Desktop\Dapper.Oracle-2.0.1\bin\debug\netstandard2.0\UzEx.Dapper.Oracle.dll
+C:\Users\user\Desktop\Dapper.Oracle-2.0.1\bin\debug\netstandard2.0\UzEx.Dapper.Oracle.pdb
+C:\Users\user\Desktop\Dapper.Oracle-2.0.1\src\Dapper.Oracle\obj\Debug\netstandard2.0\UzEx.Dapper.Oracle.csprojAssemblyReference.cache
+C:\Users\user\Desktop\Dapper.Oracle-2.0.1\src\Dapper.Oracle\obj\Debug\netstandard2.0\UzEx.Dapper.Oracle.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\Dapper.Oracle-2.0.1\src\Dapper.Oracle\obj\Debug\netstandard2.0\UzEx.Dapper.Oracle.AssemblyInfo.cs
+C:\Users\user\Desktop\Dapper.Oracle-2.0.1\src\Dapper.Oracle\obj\Debug\netstandard2.0\UzEx.Dapper.Oracle.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Dapper.Oracle-2.0.1\src\Dapper.Oracle\obj\Debug\netstandard2.0\UzEx.Dapper.Oracle.dll
+C:\Users\user\Desktop\Dapper.Oracle-2.0.1\src\Dapper.Oracle\obj\Debug\netstandard2.0\UzEx.Dapper.Oracle.pdb
+C:\Users\user\Desktop\Dapper.Oracle-2.0.1\src\uzex-dapper-oracle\UzEx.Dapper.Oracle\bin\Debug\netstandard2.0\UzEx.Dapper.Oracle.deps.json
+C:\Users\user\Desktop\Dapper.Oracle-2.0.1\src\uzex-dapper-oracle\UzEx.Dapper.Oracle\bin\Debug\netstandard2.0\UzEx.Dapper.Oracle.dll
+C:\Users\user\Desktop\Dapper.Oracle-2.0.1\src\uzex-dapper-oracle\UzEx.Dapper.Oracle\bin\Debug\netstandard2.0\UzEx.Dapper.Oracle.pdb
+C:\Users\user\Desktop\Dapper.Oracle-2.0.1\src\uzex-dapper-oracle\UzEx.Dapper.Oracle\obj\Debug\netstandard2.0\UzEx.Dapper.Oracle.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\Dapper.Oracle-2.0.1\src\uzex-dapper-oracle\UzEx.Dapper.Oracle\obj\Debug\netstandard2.0\UzEx.Dapper.Oracle.AssemblyInfo.cs
+C:\Users\user\Desktop\Dapper.Oracle-2.0.1\src\uzex-dapper-oracle\UzEx.Dapper.Oracle\obj\Debug\netstandard2.0\UzEx.Dapper.Oracle.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Dapper.Oracle-2.0.1\src\uzex-dapper-oracle\UzEx.Dapper.Oracle\obj\Debug\netstandard2.0\UzEx.Dapper.Oracle.dll
+C:\Users\user\Desktop\Dapper.Oracle-2.0.1\src\uzex-dapper-oracle\UzEx.Dapper.Oracle\obj\Debug\netstandard2.0\UzEx.Dapper.Oracle.pdb

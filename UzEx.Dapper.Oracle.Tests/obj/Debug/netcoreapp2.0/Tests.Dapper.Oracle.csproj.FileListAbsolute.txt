@@ -1,0 +1,16 @@
+C:\Users\user\Desktop\Dapper.Oracle-2.0.1\bin\debug\netcoreapp2.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\user\Desktop\Dapper.Oracle-2.0.1\bin\debug\netcoreapp2.0\xunit.runner.reporters.netcoreapp10.dll
+C:\Users\user\Desktop\Dapper.Oracle-2.0.1\bin\debug\netcoreapp2.0\xunit.runner.utility.netcoreapp10.dll
+C:\Users\user\Desktop\Dapper.Oracle-2.0.1\bin\debug\netcoreapp2.0\Tests.Dapper.Oracle.deps.json
+C:\Users\user\Desktop\Dapper.Oracle-2.0.1\bin\debug\netcoreapp2.0\Tests.Dapper.Oracle.runtimeconfig.json
+C:\Users\user\Desktop\Dapper.Oracle-2.0.1\bin\debug\netcoreapp2.0\Tests.Dapper.Oracle.runtimeconfig.dev.json
+C:\Users\user\Desktop\Dapper.Oracle-2.0.1\bin\debug\netcoreapp2.0\Tests.Dapper.Oracle.dll
+C:\Users\user\Desktop\Dapper.Oracle-2.0.1\bin\debug\netcoreapp2.0\Tests.Dapper.Oracle.pdb
+C:\Users\user\Desktop\Dapper.Oracle-2.0.1\src\Tests.Dapper.Oracle\obj\Debug\netcoreapp2.0\Tests.Dapper.Oracle.csprojAssemblyReference.cache
+C:\Users\user\Desktop\Dapper.Oracle-2.0.1\src\Tests.Dapper.Oracle\obj\Debug\netcoreapp2.0\Tests.Dapper.Oracle.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\Dapper.Oracle-2.0.1\src\Tests.Dapper.Oracle\obj\Debug\netcoreapp2.0\Tests.Dapper.Oracle.AssemblyInfo.cs
+C:\Users\user\Desktop\Dapper.Oracle-2.0.1\src\Tests.Dapper.Oracle\obj\Debug\netcoreapp2.0\Tests.Dapper.Oracle.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Dapper.Oracle-2.0.1\src\Tests.Dapper.Oracle\obj\Debug\netcoreapp2.0\Tests.Dapper.Oracle.csproj.CopyComplete
+C:\Users\user\Desktop\Dapper.Oracle-2.0.1\src\Tests.Dapper.Oracle\obj\Debug\netcoreapp2.0\Tests.Dapper.Oracle.dll
+C:\Users\user\Desktop\Dapper.Oracle-2.0.1\src\Tests.Dapper.Oracle\obj\Debug\netcoreapp2.0\Tests.Dapper.Oracle.pdb
+C:\Users\user\Desktop\Dapper.Oracle-2.0.1\src\Tests.Dapper.Oracle\obj\Debug\netcoreapp2.0\Tests.Dapper.Oracle.genruntimeconfig.cache
