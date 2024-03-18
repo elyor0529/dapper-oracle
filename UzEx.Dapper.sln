@@ -1,17 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30717.126
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34701.34
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UzEx.Dapper.Oracle", "UzEx.Dapper.Oracle\UzEx.Dapper.Oracle.csproj", "{FAF7ACCC-3FD9-440B-B3C6-22CE4E55551D}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UzEx.Dapper.Oracle.Tests", "UzEx.Dapper.Oracle.Tests\UzEx.Dapper.Oracle.Tests.csproj", "{5772D8DB-F0BC-4847-B4E4-B8570431AADD}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{0C7EB23D-CD4B-46A1-8C72-3D00B07F3B6B}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{6A5C7C1B-3754-4CC5-82ED-3CA6965D0E5B}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "example", "example", "{A9BFF4EF-6844-416F-8881-1AD7104C6480}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UzEx.Dapper.Oracle.Demo", "UzEx.Dapper.Oracle.Demo\UzEx.Dapper.Oracle.Demo.csproj", "{8FCE4456-D35D-4345-94D4-7A18D523E480}"
 EndProject
@@ -36,11 +30,6 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{FAF7ACCC-3FD9-440B-B3C6-22CE4E55551D} = {0C7EB23D-CD4B-46A1-8C72-3D00B07F3B6B}
-		{5772D8DB-F0BC-4847-B4E4-B8570431AADD} = {6A5C7C1B-3754-4CC5-82ED-3CA6965D0E5B}
-		{8FCE4456-D35D-4345-94D4-7A18D523E480} = {A9BFF4EF-6844-416F-8881-1AD7104C6480}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F61EEFF4-7BC1-4F55-B078-8EC9F3C35EA8}

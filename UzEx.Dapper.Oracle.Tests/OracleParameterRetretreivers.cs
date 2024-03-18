@@ -1,12 +1,6 @@
 ﻿using System;
 using System.Data;
-#if NETCOREAPP2_0
-using Managed = Oracle.ManagedDataAccess.Client;
-
-#else
-using UnManaged = Oracle.DataAccess.Client;
-using Managed = Oracle.ManagedDataAccess.Client;
-#endif
+using Managed = Oracle.ManagedDataAccess.Client; 
 
 namespace UzEx.Dapper.Oracle.Tests
 {

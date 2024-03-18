@@ -6,10 +6,6 @@ using UzEx.Dapper.Oracle.Expressions;
 using Xunit;
 using Managed = Oracle.ManagedDataAccess.Client;
 
-#if NETFRAMEWORK
-using UnManaged = Oracle.DataAccess.Client;
-#endif
-
 namespace UzEx.Dapper.Oracle.Tests.Expressions
 {
     public class ParameterBaseTests
@@ -18,12 +14,7 @@ namespace UzEx.Dapper.Oracle.Tests.Expressions
         {
             get
             {
-#if NETCOREAPP2_0
-                yield return new object[] {new Managed.OracleCommand()};
-#else
-                yield return new object[] { new Managed.OracleCommand() };
-                yield return new object[] { new UnManaged.OracleCommand() };
-#endif
+                yield return new object[] {new Managed.OracleCommand()}; 
             }
         }
     }

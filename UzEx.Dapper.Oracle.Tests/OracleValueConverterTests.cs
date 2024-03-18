@@ -2,13 +2,7 @@
 using FluentAssertions;
 using Oracle.ManagedDataAccess.Types;
 using Xunit;
-
-#if NETCOREAPP2_0
-
-#else
-using Oracle.DataAccess.Types;
-#endif
-
+ 
 namespace UzEx.Dapper.Oracle.Tests
 {
     public class OracleValueConverterTests

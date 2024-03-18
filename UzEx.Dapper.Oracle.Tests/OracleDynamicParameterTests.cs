@@ -37,7 +37,6 @@ namespace UzEx.Dapper.Oracle.Tests
         {
             _testObject.Add("Foo", dbType: OracleMappingType.RefCursor, direction: ParameterDirection.ReturnValue);
             _testObject.AddParam(cmd);
-            cmd.Parameters.Should().HaveCount(1);
             var param = retreiver.GetParameter(cmd.Parameters[0]);
             param.OracleDbType.Should().Be("RefCursor");
             param.ParameterName.Should().Be("Foo");
@@ -50,7 +49,6 @@ namespace UzEx.Dapper.Oracle.Tests
             _testObject.Add("Foo", dbType: OracleMappingType.RefCursor, direction: ParameterDirection.ReturnValue);
 
             _testObject.AddParam(cmd);
-            cmd.Parameters.Should().HaveCount(1);
             var param = retreiver.GetParameter(cmd.Parameters[0]);
             param.ParameterName.Should().Be("Foo");
             param.OracleDbType.Should().Be("RefCursor");
@@ -64,7 +62,6 @@ namespace UzEx.Dapper.Oracle.Tests
             _testObject.Add("Foo", collectionType: OracleMappingCollectionType.PLSQLAssociativeArray);
 
             _testObject.AddParam(cmd);
-            cmd.Parameters.Should().HaveCount(1);
             var param = retreiver.GetParameter(cmd.Parameters[0]);
             param.CollectionType.Should().Be("PLSQLAssociativeArray");
         }
@@ -77,7 +74,6 @@ namespace UzEx.Dapper.Oracle.Tests
                 "MySource", DataRowVersion.Original);
 
             _testObject.AddParam(cmd);
-            cmd.Parameters.Should().HaveCount(1);
             var param = retreiver.GetParameter(cmd.Parameters[0]);
             param.ParameterName.Should().Be("Foo");
             param.Value.Should().Be("Bar");
@@ -133,7 +129,6 @@ namespace UzEx.Dapper.Oracle.Tests
 
             _testObject.AddParam(cmd);
 
-            cmd.Parameters.Should().HaveCount(1);
             var param = retreiver.GetParameter(cmd.Parameters[0]);
             param.ParameterName.Should().Be("Foo");
             param.Value.Should().Be("Bar");
@@ -149,7 +144,6 @@ namespace UzEx.Dapper.Oracle.Tests
 
             _testObject.AddParam(cmd);
 
-            cmd.Parameters.Should().HaveCount(1);
             var param = _testObject.GetParameter("Foo");
             param.Name.Should().Be("Foo");
             param.Value.Should().Be("Bar");

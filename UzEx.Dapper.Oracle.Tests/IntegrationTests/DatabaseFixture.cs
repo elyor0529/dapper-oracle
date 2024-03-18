@@ -26,10 +26,11 @@ namespace UzEx.Dapper.Oracle.Tests.IntegrationTests
 
             if (string.IsNullOrEmpty(connectionString))
             {
-                var si = new ProcessStartInfo("powershell", @".\LocalOracleDockerDb.ps1");
-                si.LoadUserProfile = true;
-                si.RedirectStandardOutput = true;
-                si.WorkingDirectory = GetBootstrapFolder();
+                var si = new ProcessStartInfo("powershell", @".\LocalOracleDockerDb.ps1")
+                {
+                    RedirectStandardOutput = true,
+                    WorkingDirectory = GetBootstrapFolder()
+                };
                 var proccess = Process.Start(si);
                 proccess.OutputDataReceived += delegate(object sender, DataReceivedEventArgs args)
                 {
